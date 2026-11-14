@@ -29,6 +29,15 @@ Fill in every `[PLACEHOLDER]`. You need:
 
 If you don't use a school app, delete every line that mentions `[SCHOOL APP]`.
 
+When you connect your email and calendar, choose read-only access if your service
+offers it. The prompts tell the bot never to send from your account or change a
+calendar, but a permission it doesn't have is stronger than a rule it's asked to
+follow. Check what you granted in your Google account under
+[Third-party apps and services](https://myaccount.google.com/connections), not by asking
+the bot: an agent can see send and edit tools that Google would refuse. In the setup
+these prompts came from, Gmail shows "View your email messages and settings" and
+Calendar shows "See and download any calendar", both read-only.
+
 ## Daily digest
 
 Run it every day in the late afternoon, after the schools send their mail.
